@@ -17,6 +17,7 @@ main{
   padding:0px;
   margin: 0px;
   overflow: hidden; 
+  box-shadow: 5px 10px 15px #423e59;
 } 
 .navbar a{
     color: white;
@@ -27,6 +28,7 @@ main{
 }   
 .navbar a:hover{
     background-color: #ffc1fb;
+    color: #6b55da;
 }
 .navbar li{
     float: left;
