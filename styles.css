@@ -38,3 +38,12 @@ main{
     text-align:center
 }
 .text-right{ text-align: right;}
+#picofme { 
+    border-style: double;
+    border-width: 10px;
+    border-color: #6b55da;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
