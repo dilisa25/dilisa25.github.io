@@ -33,3 +33,8 @@ main{
 .navbar li{
     float: left;
 }
+#hello{
+    background-color: aliceblue;
+    text-align:center
+}
+.text-right{ text-align: right;}
