@@ -3,7 +3,8 @@
 body{
     background-color:#CDC1FF;
     color: #6b55da;
-    font-family: "Sour Gummy", serif;
+    font-family: "Sour Gummy", serif; size: ;
+    
 }
 h1{
     text-align: center;
@@ -35,6 +36,7 @@ main{
 }
 #hello{
     background-color: aliceblue;
+
     text-align:center
 }
 .text-right{ text-align: right;}
@@ -46,4 +48,10 @@ main{
     margin-left: auto;
     margin-right: auto;
 
+}
+#hola { display: flex ; 
+align-items: center;
+} 
+#texthola{ max-width: 700px;;
+justify-content: space-evenly;
 }
