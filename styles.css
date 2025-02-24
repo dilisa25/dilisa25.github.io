@@ -12,6 +12,10 @@ h1{
 main{
     margin: 20px;
 }
+.navbar{
+    position: sticky ;
+    top:0px
+}
 .navbar ul{
   list-style-type: none;
   background-color: #6b55da;
