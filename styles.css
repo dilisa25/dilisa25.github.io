@@ -4,6 +4,7 @@ body{
     background-color:#CDC1FF;
     color: #6b55da;
     font-family: "Sour Gummy", serif; size: ;
+    font-size: larger;
     
 }
 h1{
@@ -64,3 +65,12 @@ border-bottom: 2px solid black;
 }
 .project:nth-child(even){
     flex-direction: row-reverse;}
+.form{
+    margin-left: 255px;}
+#formtittle{
+ text-align: center;   
+}
+input{ 
+    color: #6b55da;
+
+}
