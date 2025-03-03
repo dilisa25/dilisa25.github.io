@@ -74,3 +74,10 @@ input{
     color: #6b55da;
 
 }
+.alive {
+    background-color: #ffc1fb;
+    padding: 10px;
+    overflow: hidden; 
+    box-shadow: ;
+
+}
