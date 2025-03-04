@@ -60,8 +60,9 @@ align-items: center;
 #texthola{ max-width: 700px;;
 justify-content: space-evenly;
 }
-.project {display: flex;
-border-bottom: 2px solid black;
+.project {display: flex; justify-content: space-around;
+border-bottom: 10px solid #ffc1fb;
+margin-top: 50px;
 }
 .project:nth-child(even){
     flex-direction: row-reverse;}
