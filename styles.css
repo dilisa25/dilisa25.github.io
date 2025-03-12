@@ -50,15 +50,15 @@ main{
     border-width: 10px;
     border-color: #6b55da;
     display:block;
-    margin-left: auto;
-    margin-right: auto;
-
 }
-#hola { display: flex ; 
+#hola { 
+    display: flex ; 
 align-items: center;
+justify-content: center;
 } 
 #texthola{ max-width: 700px;;
 justify-content: space-evenly;
+margin-right: 50px;
 }
 .project {display: flex; justify-content: space-around;
 border-bottom: 10px solid #ffc1fb;
@@ -82,8 +82,10 @@ input{
     box-shadow: ;
 
 }
-.nteo { display: flex;
+.nteo { 
+    display: flex;
     justify-content: space-around;
+    overflow: scroll;
 }
 .button {
     background-color: #04AA6D; /* Green */
@@ -95,3 +97,17 @@ input{
     display: inline-block;
     font-size: 16px;
   }
+ .center{ 
+    display:flexbox
+    justify-content 
+ }
+  
+@media screen and (max-width: 480px) {
+    img {
+        max-width: 100%;
+    }  
+    #hola {
+      flex-direction: column;
+        
+    }  
+}
